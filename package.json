@@ -1,0 +1,38 @@
+{
+  "name": "import-export-task",
+  "version": "1.0.0",
+  "description": "\"Modules Import-Export Hometask\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanSergeev1/ajs-modules-2.git"
+  },
+  "keywords": [
+    "hometask"
+  ],
+  "author": "Ivan Sergeev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanSergeev1/ajs-modules-2/issues"
+  },
+  "homepage": "https://github.com/IvanSergeev1/ajs-modules-2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "css-loader": "^3.5.3",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0"
+  }
+}
